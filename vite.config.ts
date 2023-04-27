@@ -10,7 +10,7 @@ export default defineConfig({
 	plugins: [
 		vue(),
 		Unocss({ presets: [presetUno()] }),
-		AutoImport({ imports: ['vue'] }),
+		AutoImport({ imports: ['vue', 'vue-router'] }),
 		Pages(),
 	],
 	resolve: {
