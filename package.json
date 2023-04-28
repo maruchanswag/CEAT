@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@clerk/clerk-js": "^4.38.4",
     "pusher-js": "^8.0.2",
     "type-route": "^1.0.1",
     "vue": "^3.2.47",
