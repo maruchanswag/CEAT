@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formkit/auto-animate": "1.0.0-beta.6",
     "pusher-js": "^8.0.2",
     "type-route": "^1.0.1",
     "vue": "^3.2.47",
