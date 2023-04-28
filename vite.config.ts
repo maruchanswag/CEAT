@@ -9,7 +9,7 @@ import { resolve } from 'path'
 export default defineConfig({
 	plugins: [
 		vue(),
-		Unocss({ presets: [presetUno()] }),
+		Unocss({ presets: [presetUno({ dark: 'class' })] }),
 		AutoImport({ imports: ['vue', 'vue-router'] }),
 		Pages(),
 	],
