@@ -10,7 +10,7 @@ export default defineConfig({
 	plugins: [
 		vue(),
 		Unocss({ presets: [presetUno({ dark: 'class' })] }),
-		AutoImport({ imports: ['vue', 'vue-router'] }),
+		AutoImport({ imports: ['vue', 'vue-router', '@vueuse/core'] }),
 		Pages(),
 	],
 	resolve: {
